@@ -1,15 +1,4 @@
-# wallet
-
-### binary use
-
-```
-wallet cre
-```
-
-### library use
-
-```go
-package main
+package cre
 
 import (
 	"fmt"
@@ -19,7 +8,11 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func main() {
+type run struct {
+	flags *flags
+}
+
+func (r *run) run(cmd *cobra.Command, args []string) {
 	var wal *wallet.Wallet
 	{
 		wal = wallet.New(wallet.Config{})
@@ -31,10 +24,3 @@ func main() {
 		fmt.Printf("mnemonic    %s\n", wal.Mne)
 	}
 }
-```
-
-```
-paddress    0x258e...b5Df
-privatek    0x818a...400a
-mnemonic    tea choral speed ... teddy moon brother
-```
