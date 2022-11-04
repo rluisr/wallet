@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/btcsuite/btcd v0.22.1
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
-	github.com/ethereum/go-ethereum v1.10.25
+	github.com/ethereum/go-ethereum v1.10.26
 	github.com/spf13/cobra v1.5.0
 	github.com/tyler-smith/go-bip39 v1.1.0
 	github.com/umbracle/ethgo v0.1.3
