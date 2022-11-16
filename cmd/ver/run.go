@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	rep = "https://github.com/phoebetron/wallet"
+	rep = "https://github.com/rluisr/wallet"
 	sha = "n/a"
 	tag = "n/a"
 )

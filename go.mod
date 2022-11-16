@@ -1,4 +1,4 @@
-module github.com/phoebetron/wallet
+module github.com/rluisr/wallet
 
 go 1.18
 

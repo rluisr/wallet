@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/phoebetron/wallet/cmd/com"
-	"github.com/phoebetron/wallet/cmd/cre"
-	"github.com/phoebetron/wallet/cmd/ver"
+	"github.com/rluisr/wallet/cmd/com"
+	"github.com/rluisr/wallet/cmd/cre"
+	"github.com/rluisr/wallet/cmd/ver"
 	"github.com/spf13/cobra"
 	"github.com/xh3b4sd/tracer"
 )

@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/phoebetron/wallet/cmd"
+	"github.com/rluisr/wallet/cmd"
 	"github.com/spf13/cobra"
 	"github.com/xh3b4sd/tracer"
 )

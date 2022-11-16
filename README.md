@@ -15,7 +15,7 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/phoebetron/wallet/pkg/wallet"
+	"github.com/rluisr/wallet/pkg/wallet"
 	"github.com/spf13/cobra"
 )
 
